@@ -1,4 +1,4 @@
-function initial (c, arr) {
+function choice (c, arr) {
     var capacity = c,
         i = 0,
         soldiers = [],
@@ -54,5 +54,5 @@ function compareBaggage(a,b) {
     return 0;
 }
 
-initial(5, [[1,1], [2,2], [2, 6], [2,3], [2,7], [2,5], [0]]);
+choice(5, [[1,1], [2,2], [2, 6], [2,3], [2,7], [2,5], [0]]);
 
